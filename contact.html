@@ -93,6 +93,13 @@
         input#button {
             float: right;
         }
+        input {
+            float: right;
+            width: 60%;
+        }
+        label {
+            width: 100%;
+        }
 
         @media all and (min-width: 550px) {
             ul{
@@ -112,6 +119,13 @@
                 float: left;
                 padding-left: 10px;
                 word-spacing: 15px;
+            }
+            input {
+                width: 160px;
+                float: right;
+            }
+            label {
+                width: 100%;
             }
         }
 
@@ -142,6 +156,14 @@
 
             article:nth-child(even){
                 margin-right: 0;
+            }
+
+            input {
+                float: right;
+                width:70%;
+            }
+            label {
+                width: 90%;
             }
         }
 
@@ -194,7 +216,6 @@
         </label>
         <label class="information">Bericht:</label>
         <label class="information">
-
             <textarea name="message" rows="10" cols="30" placeholder=""></textarea>
         </label>
         <label><input id="button" type="submit" name="Send"></label>
