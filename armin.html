@@ -137,12 +137,44 @@
             label {
                 width: 100%;
             }
+            #container{
+                margin-left: 8%;
+                margin-top: 8%;
+            }
+            #plaatje1, #plaatje2{
+                margin-top: 40px;
+            }
+            #plaatjes2{
+                grid-area: plaatjes2;
+                display: flex;
+                flex-direction: column;
+            }
+            #text3{
+                grid-area: text3;
+            }
+
+            #text2{
+                grid-area: text2;
+            }
+
+            #text1{
+                grid-area: text1;
+            }
+
+            #yt{
+                grid-area: yt;
+            }
+
+            #titelplaatje{
+                grid-area: titelplaatje;
+            }
         }
         /* pc stand */
         @media all and (min-width: 800px) {
             h2#bierhier {
                 font-size: xxx-large;
             }
+
             section#stage{
                 width: 30%;
                 float: right;
@@ -208,12 +240,42 @@
 
         </ul>
     </nav>
-    <h1 style="float: right; padding-right: 120px" >Concerten</h1>
-    <br><br>
-    <h4 style="float: right; margin-left: 50px" >Overzicht met concerten in Amsterdam en Almere</h4>
-    <img src="img/concert.jpg" alt="concert photo" style="width: 45%">
-    <img src="img/concertschedule.jpg" alt="concert schedule" style="width: 45%">
-    <br><br>
+<h1>Concert van Armin van Buuren</h1>
+    <div id="container">
+
+        <div id="plaatjes2">
+            <img id="plaatje1" src="img/armin2.jpg" alt="Trevor hall foto" width="300" height="250">
+            <img id="plaatje2" src="img/armin3.jpg" alt="Trevor hall foto" width="300" height="250">
+        </div>
+
+
+        <div id="text1">
+            <p>Pellentesque ac malesuada mauris. In vitae dui eget magna
+                pellentesque ornare ac tempor tortor. Aenean ex tortor, hendrerit a scelerisque at, hendrerit scelerisque
+                enim. Duis at sollicitudin neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.</p>
+        </div>
+
+
+        <div id="text2">
+            <p>Pellentesque ac malesuada mauris. In vitae dui eget magna
+                pellentesque ornare ac tempor tortor. Aenean ex tortor, hendrerit a scelerisque at, hendrerit scelerisque
+                enim. Duis at sollicitudin neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.</p>
+        </div>
+        <div id="yt"> <iframe width="450" height="250" src="https://www.youtube.com/embed/ScYoXjpQgcc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+
+
+        <div id="text3">
+            <p>Suspendisse mattis maximus tellus, vitae lacinia odio faucibus in. Phasellus rutrum sem sed libero
+                venenatis, ut commodo justo auctor. Etiam molestie nibh vel metus ultrices gravida. Aliquam erat volutpat.
+                In sem velit, interdum ultrices ex eget, interdum blandit orci. Suspendisse euismod id neque quis tincidunt.
+                Aliquam consectetur odio vel fringilla venenatis. Praesent blandit hendrerit turpis, quis convallis nisl
+                aliquet ac. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ac fermentum diam.Aliquam
+                erat volutpat.Interdum et malesuada fames ac ante ipsum primis in faucibus.nostra, per
+                inceptos himenaeos.nostra, per
+                inceptos himenaeos.</p>
+        </div>
     <div>
         <br><br>
         <h1 style="float: left">En meer...</h1>
