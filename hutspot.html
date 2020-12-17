@@ -6,7 +6,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
-        <title>Recepten</title>
+        <title>Hutspot</title>
         <style>
             /* telefoon stand */
             *{
@@ -186,34 +186,47 @@
                     width: 90%;
                 }
             }
-    /* page content */
+    
             @media all and (min-width: 1200px) {
                 div#wrapper{
                     width: 1200px;
                     margin: auto;
                 }
-                div#ingredienten{
-                    width:40%
-                }
-                div.plaatjes{
-                    float:right;
-                }
-            }
-            .plaatje{
-                margin-left:.8em;
-                width: 300px;
-                height: 250px;
             }
 
+            #img_boerenkool{
+                float:right;
+                width:500px;
+                height:390px;
+                margin-left:.8em;
+                margin-top:.8em;
+            }
+            #plaatjes img{
+                border: 1px solid pink;
+                margin-top:.8em;
+            }
+            #plaatje_1{
+                float: left;
+               width: 300px;  
+               height: 350px;
+            }
+
+            #plaatje_2{
+                margin-left:.8em;
+                
+                width: 450px;
+                height: 350px;
+            }
+            #plaatje_3{
+                float:right;
+                width: 400px;
+                height: 350px;
+            }
             #ingredienten{
                 float: left;
             }
             #bereiding{
                 float: left;
-            }
-            .maaltijd
-            {
-                display: inline-block;
             }
         </style>
     </head>
@@ -236,37 +249,39 @@
             </ul>
         </nav>
 
-<section id="recepten">
+<section id="Boerenkool">
     <article id="1"></article>
-    <div class="maaltijd" id="boerenkool">
-        <div id="ingredienten">
-            <h1>Recepten</h1>
-            <a href=" boerenkool.html">boerenkool</a>
-            <div id="bereiding">
-                <b>Winter maanden</b><br>
-                Boerenkool met worst is een klassiek winters seizoen recept in Nederland. Ieder gezin kent het well, het heerlijke simpel winter gerecht is geweldig voor de donkeren maanden. 
-            </div>
-        </div>
-        <div class="plaatjes">
-            <img class="plaatje" id="plaatje_1" src="img/stamppot-boerenkool_v-1.jpg"> 
-            <img class="plaatje" id="plaatje_2" src="img/worst met jus.jpg"> 
-        </div>
+    <img id="img_boerenkool" src="img\hutspot_4.jpg">
+    <div id="ingredienten">
+    <h1>Hutspot</h1>
+       <br> <b>Ingredienten</b>
+        <lu>
+           <li> 500 gr hutspot groenten (of 400 gr wortel en 1 grote ui)</li>
+           <li> 500 gr kruimige aardappels (geschild)</li>
+           <li>1 blaadje laurier</li>
+           <li>25 gr boter</li>
+           <li>Scheut warme melk</li>
+           <li>snuf peper en zout</li>
+           <li>snuf nootmuskaat</li>
+           <li>Optioneel: (vega) rookworst, gehaktballen of spekjes</li>
+        </lu>
+<br>
+</div>
+
+    <div id="bereiding">
+        <b>Bereidings Wijze</b><br>
+        Snijd de wortels en ui in stukjes. Doe de aardappels in gelijke stukken in een grote pan met water. Voeg ook de ui en wortel toe en het blaadje laurier. Breng aan de kook.Kook 20 minuten tot de aardappels goed gaar zijn. Giet af en verwijder het blaadje laurier. Doe de aardappels en groenten terug in de pan. Voeg de boter toe en een scheut warme melk. Stamp met een stamper fijn. Voeg eventueel een beetje extra melk toe om de stamppot smeuiger te maken.Breng de hutspot op smaak met voldoende zout, snuf peper en nootmuskaat. Garneer eventueel met een beetje peterselie of tijm en serveer er een stukje vlees, vis of vega optie bij.
     </div>
-    <div class="maaltijd" id="stampot">
-        <div id="ingredienten">
-            <h1>Recepten</h1>
-            <a href="hutspot.html">hutspot</a>
-            <div id="bereiding">
-                <b>Winter maanden</b><br>
-                Hutspot met jus is een klassiek winters seizoen recept in Nederland. Ieder gezin kent het well, het heerlijke simpel winter gerecht is geweldig voor de donkeren maanden. 
-            </div>
-        </div>
-        <div class="plaatjes">
-            <img class="plaatje" id="plaatje_3" src="img/jus met hutspot.jpg"> 
-            <img class="plaatje" id="plaatje_4" src="img/Hutspot-met-knolselderij-6.jpg"> 
-        </div>
-    </div>
+
     </article>
+
+    <div id="plaatjes"> 
+        <img id="plaatje_1" src="img\hutspot_1.jpg"> 
+        <img id="plaatje_2" src="img\hutspot_02.jpg"> 
+        <img id="plaatje_3" src="img\hutspot_03.jpg"> 
+    </div>
+
+
 </section>
 
 <footer>
