@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Home pagina</title>
+        <style>
+            /* telefoon stand */
+            *{
+                box-sizing: border-box;
+            }
+    
+            body{
+                margin: 0;
+                background-color: white;
+                font-family: 'Noto Sans', sans-serif;
+            }
+    
+            div#wrapper{
+                background-color: #ffffff;
+            }
+            header {
+                background-color: #ffd0ce;
+                padding-left: 15px;
+            }
+    
+            h2#bierhier {
+                text-align: left;
+                padding-left: 15px;
+                padding-top: 5px;
+                margin: 0;
+                font-size: xx-large;
+            }
+    
+            nav ul {
+                padding: 0;
+                margin: 0;
+                background-color: #ffd0ce;
+            }
+    
+            nav li {
+    
+                padding-left: 20px;
+                padding-bottom: 5px;
+                border-top: 1px solid white;
+            }
+    
+            nav li a{
+                text-decoration: none;
+                color: #073763;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                margin: 15px;
+                display: inline-block;
+                font-weight: 700;
+                font-size: x-large;
+            }
+    
+            h2  {
+                color: #073763;
+                font-weight: 600;
+                font-size: xxx-large;
+                margin: 5px;
+            }
+            h3  {
+                color: #073763;
+                font-weight: 600;
+                font-size: x-large;
+            }
+    
+            a:hover{
+                color: #999999;
+            }
+            a:active{
+                color: rgb(225, 128, 0);
+            }
+    
+            nav li:hover {
+                 background-color: pink;
+                 transition: 2s;
+             }
+            nav ul:hover {
+                background-color: #ffd9d8;
+                transition: 2s;
+            }
+    
+            img {
+                width: 100%;
+            }
+    
+            section footer{
+                padding: 20px;
+            }
+    
+            footer {
+                background-color: #999999;
+                color: white;
+                clear: both;
+                padding: 10px;
+            }
+            footer p{
+                color: white;
+                text-align: center;
+            }
+    
+            input {
+                float: right;
+                width: 60%;
+            }
+            label {
+                width: 100%;
+            }
+            /* tablet stand */
+            @media all and (min-width: 550px) {
+                h2#bierhier {
+                    font-size: xxx-large;
+                }
+                nav li {
+                    display: inline-block;
+                    border: none;
+                }
+                section#stage{
+                    width: 40%;
+                    float: right;
+                    word-spacing: 15px;
+                }
+                section#nieuws{
+                    width: 60%;
+                    float: left;
+                    padding-left: 10px;
+                    word-spacing: 15px;
+                    box-sizing: border-box;
+                    display: inline-block;
+                }
+                input {
+                    width: 160px;
+                    float: right;
+                }
+                label {
+                    width: 100%;
+                }
+            }
+            /* pc stand */
+            @media all and (min-width: 800px) {
+                h2#bierhier {
+                    font-size: xxx-large;
+                }
+                section#stage{
+                    width: 30%;
+                    float: right;
+                    word-spacing: 15px;
+                }
+                section#nieuws{
+                    width: 70%;
+                    float: left;
+                    padding-left: 10px;
+                    word-spacing: 15px;
+                    box-sizing: border-box;
+                    display: inline-block;
+                }
+    
+                article {
+                    display: inline-block;
+                    width: 47%;
+                    margin-right: 10px;
+                    word-spacing: 15px;
+                }
+    
+                iframe {
+                    width: 100%;
+                    height: 200px;
+                }
+    
+                article:nth-child(even){
+                    margin-right: 0;
+                }
+    
+                input {
+                    float: right;
+                    width:70%;
+                }
+                label {
+                    width: 90%;
+                }
+            }
+    
+            @media all and (min-width: 1200px) {
+                div#wrapper{
+                    width: 1200px;
+                    margin: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <div id="wrapper">
+    
+        <header>
+            <center><a href="https://twitter.com/rocvanflevoland?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+               data-show-count="true">Follow @rocvanflevoland</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+            <h2 id="bierhier">Studentenvereniging BIERHIER</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="concert.html">Concerten</a></li>
+                <li><a href="sport.html">Sport</a></li>
+                <li><a href="recepten.html">Recepten</a></li>
+                <li><a href="contact.html">Contact</a></li>
+    
+            </ul>
+        </nav>
+
+<section id="Boerenkool">
+    <article id="1"></article>
+    <h1>Boerenkool met sjus</h1>
+    <img src="boerenkool.jpg">
+       <br> <b>Ingredienten</b>
+        <lu>
+            <li>300 gr gesneden boerenkool</li>
+                <li> 500 gr kruimige aardappels (geschild)</li>
+                    <li> 1 grote of 2 kleine rookworsten</li>
+                        <li> Scheut warme melk</li>
+                            <li> 20 gr boter</li>
+                                <li> 1 theelepel mosterd</li>
+                                    <li>peper en zout</li>
+                                        <li>Snufje nootmuskaat</li>
+        </lu>
+<br>
+        <b>Bereidings Wijze</b><br>
+Kook eerst de aardappels totdat deze uit elkaar vallen.
+
+    </article>
+    <article id="2">
+        Donec pulvinar vestibulum lorem, id iaculis risus iaculis vitae. Suspendisse rutrum, orci at imperdiet aliquam, mauris nisi
+        consectetur diam, non hendrerit risus ex eu ligula. Duis orci lacus, scelerisque eget lacinia sit amet, porta nec lorem.
+        Aliquam molestie volutpat velit, non ornare ante dignissim eu. In sit amet tellus sit amet libero ultricies pellentesque.
+        Suspendisse eleifend laoreet ante, a consequat turpis fringilla ut. Nulla bibendum erat ut ornare ornare. Aliquam condimentum
+        tincidunt metus non dapibus. In massa ante, egestas ut ultricies sit amet, accumsan finibus ligula. Etiam id ornare turpis.
+    </article>
+</section>
+<section id="stage">
+    <h3>Stagelopen in Almere</h3>
+    <article>
+        Nullam consequat, dolor ut sodales pretium, sem nunc ultricies odio, id rhoncus quam nulla et odio. Pellentesque gravida interdum
+        consequat. Vivamus tempor ornare porttitor. In posuere nisl at erat vehicula, in laoreet tellus finibus. Maecenas luctus tempus
+        tortor in consequat. Nullam quis congue orci, at consectetur felis. Sed ornare massa eget varius ultrices. Proin iaculis arcu enim,
+        vel blandit lorem luctus ac. Praesent dui nisl, luctus id quam eu, cursus lobortis velit. Nunc tellus dolor, facilisis a accumsan
+        et, venenatis ut nisi. Ut non tellus felis. Aliquam et sodales magna, eu pulvinar metus. Aenean fermentum leo leo. Maecenas urna
+        felis, rutrum sed accumsan sed, semper ut elit. Suspendisse potenti. Duis auctor, tellus quis facilisis blandit, dolor tellus
+        vulputate nibh, in volutpat dui leo in ante.
+    </article>
+    <img src="" alt="">
+</section>
+
+<footer>
+    <section>
+        <p id="sitelinks">Sitelinks</p>
+    </section>
+
+    <h4 id="copyright">Copyright © ROC Flevoland 2105</h4>
+</footer>
+
+</body>
+</html>
