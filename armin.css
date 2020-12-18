@@ -1,0 +1,71 @@
+h3 {
+    margin-left:20px;
+}
+section#armin {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+img#arminn {
+    margin: 20px;
+    width: 380px;
+    height: auto;
+    display: inline-block;
+}
+img#arminn2 {
+    margin: 20px;
+    width: 380px;
+    height: auto;
+    display: inline-block;
+}
+section#armin2 {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+}
+article#arminarticle2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 236px;
+    height: auto;
+    margin-left: 112px;
+}
+section#armin3 {
+    text-align:left;
+    display:inline-block;
+    height: auto;
+    width: 17%;
+    vertical-align: top;
+}
+article#arminarticle3 {
+    width: 230px;
+    height:auto;
+    margin-left: 90px;
+    text-align: left;
+    display: inline-block;
+}
+section#armin4 {
+    vertical-align: top;
+    width: 22%;
+    text-align:left;
+    display:inline-block;
+    height: auto;
+}
+article#arminarticle4 {
+    width: 230px;
+    height:auto;
+    margin-left: 125px;
+    text-align: left;
+}
+section#arminyt {
+    width: 22%;
+    text-align:left;
+    display:inline-block;
+    height: auto;
+}
+article#arminarticleyt {
+    width: 500px;
+    height:500px;
+    margin-left: 20px;
+    text-align: left;
+}
