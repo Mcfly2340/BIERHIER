@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Concerten</title>
+    <style>
+        /* telefoon stand */
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            background-color: white;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        div#wrapper{
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #ffd0ce;
+            padding-left: 15px;
+        }
+
+        h2#bierhier {
+            text-align: left;
+            padding-left: 15px;
+            padding-top: 5px;
+            margin: 0;
+            font-size: xx-large;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            background-color: #ffd0ce;
+        }
+
+        li {
+
+            padding-left: 20px;
+            padding-bottom: 5px;
+            border-top: 1px solid white;
+        }
+
+        li a{
+            text-decoration: none;
+            color: #073763;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            margin: 15px;
+            display: inline-block;
+            font-weight: 700;
+            font-size: x-large;
+        }
+
+        h2  {
+            color: #073763;
+            font-weight: 600;
+            font-size: xxx-large;
+            margin: 5px;
+        }
+        h3  {
+            color: #073763;
+            font-weight: 600;
+            font-size: x-large;
+        }
+
+        a:hover{
+            color: #999999;
+        }
+        a:active{
+            color: rgb(225, 128, 0);
+        }
+
+        li:hover {
+            background-color: pink;
+            transition: 2s;
+        }
+        ul:hover {
+            background-color: #ffd9d8;
+            transition: 2s;
+        }
+        section footer{
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #999999;
+            color: white;
+            clear: both;
+            padding: 10px;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+        }
+
+        input {
+            float: right;
+            width: 60%;
+        }
+        label {
+            width: 100%;
+        }
+        /* tablet stand */
+        @media all and (min-width: 550px) {
+            h2#bierhier {
+                font-size: xxx-large;
+            }
+            li {
+                display: inline-block;
+                border: none;
+            }
+            section#stage{
+                width: 40%;
+                float: right;
+                word-spacing: 15px;
+            }
+            section#nieuws{
+                width: 60%;
+                float: left;
+                padding-left: 10px;
+                word-spacing: 15px;
+                box-sizing: border-box;
+                display: inline-block;
+            }
+            input {
+                width: 160px;
+                float: right;
+            }
+            label {
+                width: 100%;
+            }
+        }
+        /* pc stand */
+        @media all and (min-width: 800px) {
+            h2#bierhier {
+                font-size: xxx-large;
+            }
+            section#stage{
+                width: 30%;
+                float: right;
+                word-spacing: 15px;
+            }
+            section#nieuws{
+                width: 70%;
+                float: left;
+                padding-left: 10px;
+                word-spacing: 15px;
+                box-sizing: border-box;
+                display: inline-block;
+            }
+
+            article {
+                display: inline-block;
+                width: 47%;
+                margin-right: 10px;
+                word-spacing: 15px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 200px;
+            }
+
+            article:nth-child(even){
+                margin-right: 0;
+            }
+
+            input {
+                float: right;
+                width:70%;
+            }
+            label {
+                width: 90%;
+            }
+        }
+
+        @media all and (min-width: 1200px) {
+            div#wrapper{
+                width: 1200px;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+
+    <header>
+        <center><a href="https://twitter.com/rocvanflevoland?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                   data-show-count="true">Follow @rocvanflevoland</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+        <h2 id="bierhier">Studentenvereniging BIERHIER</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="concert.html">Concerten</a></li>
+            <li><a href="sport.html">Sport</a></li>
+            <li><a href="recepten.html">Recepten</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+    <h1 style="float: right; padding-right: 120px" >Concerten</h1>
+    <br><br>
+    <h4 style="float: right; margin-left: 50px" >Overzicht met concerten in Amsterdam en Almere</h4>
+    <img src="img/concert.jpg" alt="concert photo" style="width: 45%">
+    <img src="img/concertschedule.jpg" alt="concert schedule" style="width: 45%">
+    <br><br>
+    <div>
+        <br><br>
+        <h1 style="float: left">En meer...</h1>
+        <a href="armin.html">
+            <img src="img/armin.jpg" alt="armin van buuren concert" style="float: right">
+        </a>
+        <a href="armin.html">
+            <img src="img/anbu.jpg" alt="armin van buuren concert" style="float: right;margin-right: 45px">
+        </a>
+        <a href="armin.html">
+            <img src="img/blackeyedpeas.jpg" alt="armin van buuren concert" style="float: right;margin-right: 45px">
+        </a>
+        <a href="armin.html">
+            <img src="img/greenday.jpeg" alt="armin van buuren concert" style="float: right;margin-right: 45px;margin-bottom: 20px">
+        </a>
+
+    </div>
+    <footer>
+        <h4 id="contact">Sitelinks</h4>
+        -----------<br>------------------<br>---
+        <p id="copyright">Copyright © ROC Flevoland 2105</p>
+    </footer>
+
+</div>
+</body>
+</html>
