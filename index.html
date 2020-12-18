@@ -27,6 +27,12 @@
             padding-left: 15px;
         }
 
+        h2  {
+            color: #073763;
+            font-weight: 600;
+            font-size: xxx-large;
+            margin: 5px;
+        }
         h2#bierhier {
             text-align: left;
             padding-left: 15px;
@@ -34,20 +40,23 @@
             margin: 0;
             font-size: xx-large;
         }
+        h3  {
+            color: #073763;
+            font-weight: 600;
+            font-size: x-large;
+        }
 
         ul {
             padding: 0;
             margin: 0;
             background-color: #ffd0ce;
         }
-
         li {
 
             padding-left: 20px;
             padding-bottom: 5px;
             border-top: 1px solid white;
         }
-
         li a{
             text-decoration: none;
             color: #073763;
@@ -58,17 +67,13 @@
             font-weight: 700;
             font-size: x-large;
         }
-
-        h2  {
-            color: #073763;
-            font-weight: 600;
-            font-size: xxx-large;
-            margin: 5px;
+        li:hover {
+            background-color: pink;
+            transition: 2s;
         }
-        h3  {
-            color: #073763;
-            font-weight: 600;
-            font-size: x-large;
+        ul:hover {
+            background-color: #ffd9d8;
+            transition: 2s;
         }
 
         a:hover{
@@ -78,21 +83,17 @@
             color: rgb(225, 128, 0);
         }
 
-        li:hover {
-             background-color: pink;
-             transition: 2s;
-         }
-        ul:hover {
-            background-color: #ffd9d8;
-            transition: 2s;
-        }
-
         img {
             width: 100%;
         }
 
-        section footer{
-            padding: 20px;
+        input {
+            float: right;
+            width: 60%;
+        }
+
+        label {
+            width: 100%;
         }
 
         footer {
@@ -105,23 +106,16 @@
             color: white;
             text-align: center;
         }
+        section footer{
+            padding: 20px;
+        }
 
-        input {
-            float: right;
-            width: 60%;
-        }
-        label {
-            width: 100%;
-        }
         /* tablet stand */
         @media all and (min-width: 550px) {
             h2#bierhier {
                 font-size: xxx-large;
             }
-            li {
-                display: inline-block;
-                border: none;
-            }
+
             section#stage{
                 width: 40%;
                 float: right;
@@ -135,10 +129,17 @@
                 box-sizing: border-box;
                 display: inline-block;
             }
+
+            li {
+                display: inline-block;
+                border: none;
+            }
+
             input {
                 width: 160px;
                 float: right;
             }
+
             label {
                 width: 100%;
             }
@@ -148,6 +149,7 @@
             h2#bierhier {
                 font-size: xxx-large;
             }
+
             section#stage{
                 width: 30%;
                 float: right;
@@ -168,14 +170,13 @@
                 margin-right: 10px;
                 word-spacing: 15px;
             }
+            article:nth-child(even){
+                margin-right: 0;
+            }
 
             iframe {
                 width: 100%;
                 height: 200px;
-            }
-
-            article:nth-child(even){
-                margin-right: 0;
             }
 
             input {
@@ -197,7 +198,6 @@
 </head>
 <body>
 <div id="wrapper">
-
     <header>
         <center><a href="https://twitter.com/rocvanflevoland?ref_src=twsrc%5Etfw" class="twitter-follow-button"
            data-show-count="true">Follow @rocvanflevoland</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
@@ -210,7 +210,6 @@
             <li><a href="sport.html">Sport</a></li>
             <li><a href="recepten.html">Recepten</a></li>
             <li><a href="contact.html">Contact</a></li>
-
         </ul>
     </nav>
     <section id="stage" style="padding: 20px"> <h3>Stage</h3>
@@ -220,7 +219,6 @@
             id vulputate ligula tempus sit amet. Cras scelerisque sapien vel odio mattis elementum.
         </p>
     </section>
-
     <section id="nieuws" style="padding: 20px">
         <h2 id="home">Nieuws uit Almere Buiten</h2>
         <article>
